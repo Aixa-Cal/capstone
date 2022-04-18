@@ -1,1 +1,185 @@
-!
+*{
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    align-items: center;
+  }
+
+  header .Navbarcontent{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    height: 70px;
+  }
+
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .Navbar{
+    float: right;
+    margin-left: 50rem;
+
+  }
+  
+  nav li {
+    padding-left: 1rem;
+    text-decoration: none; 
+    align-items: center; 
+  }
+
+  nav a {
+    vertical-align:middle;
+    line-height: 2;
+    text-decoration: none;
+  }
+
+  .Navlogo{
+      padding-left: 20px;
+  }
+  
+  /* FIRST SECTION */
+
+  .First-Content{
+      display: flex;
+      background-color: rgb(114, 145, 249);
+      width: 100%;
+  }
+
+  .Image-firstsection{
+      padding-top: 100px;
+      padding-left: 50px;
+      padding-bottom: 30px;
+      padding-right: 0;
+      width: 50%;
+  }
+
+ .First-Section{
+      margin-top: 190px;
+      width: 50%;
+      font-size: 2rem;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  .Firstbutton{
+      background-color: black;
+      color: white;
+      border-radius: 10px;
+      font-size: 1.5rem;
+      text-align: center;
+      padding: 10px;
+      border-color: black;
+      margin-top: 15px;
+  }
+
+    
+  /* SECOND SECTION */
+
+  .Second-Content {
+    display: flex;
+    background-color:white;
+  }
+
+  .SecondsectionContainer{
+      width: 50%;
+  }
+
+  .Image-secondsection{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 0;
+    width: 50%;
+}
+
+.SecondsectionColumn{
+    font-size: 2rem;
+    justify-content: center; 
+    margin: 30px;
+}
+
+.Second-Section{
+    padding: 50px;
+    width: 50%;
+    line-height: 30px; 
+}
+
+.Readmore{
+    color:dodgerblue;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.SecondsectionColumn p{
+    font-size: 15px;
+}
+
+.block1{
+    display: flex;
+}
+
+.block2{
+    display: flex;
+
+}
+
+.block3{
+    display: flex;
+
+}
+
+.Right-Section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+ 
+/* LEARNING SECTION */
+
+.Learning-section{
+    background-color: rgb(114, 145, 249);
+    display: flex;
+}
+
+.CorusesIMG{
+    width:300px;
+    height: auto;
+
+}
+
+  /* Responsive */
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
