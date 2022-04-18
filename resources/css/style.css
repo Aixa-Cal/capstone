@@ -153,17 +153,154 @@ header {
 /* LEARNING SECTION */
 
 .Learning-section{
+    padding-top: 50px;
     background-color: rgb(114, 145, 249);
-    display: flex;
+    width: 100%;
 }
 
 .CorusesIMG{
-    width:300px;
-    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.images-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: rgb(114, 145, 249);
+}
+
+.image-container{
+    background-color: rgb(255,255,255);
+    width: 30%;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    box-shadow: 0 2px 4px 0 grey;
+    text-align: center;
+    border-radius: 10px;
+    height: 230px;
+    justify-content: center;
+}
+
+/* VIDEO SECTION */
+
+  .Fourth-Content {
+    display: flex;
+    background-color:white;
+    margin-bottom: 20px;
+  }
+
+  .FourthcontentContainer{
+      width: 50%;
+  }
+
+  .VideosectionContainer{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 0;
+    width: 50%;
+}
+
+.FourthContetTitle{
+margin-top: 30px;
+}
+
+.FourthcontentColumn{
+    font-size: 2rem;
+    justify-content: center; 
+    margin: 30px;
+}
+
+.FourthcontentColumn p{
+    font-size: 15px;
+}
+
+.Fourth-Section{
+    margin-top: 50px;
+    width: 50%;
+    line-height: 30px; 
+}
+
+.block1{
+    display: flex;
+}
+
+.block2{
+    display: flex;
 
 }
 
-  /* Responsive */
+.Right-Section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}   
+
+
+.Image-secondsectionC{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 0;
+    width: 50%;
+}
+
+.Right-SectionB{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}   
+
+.Footer{
+    display: flex;
+    background-color: rgb(114, 145, 249);
+    align-items: center;
+    height: 70px;
+}
+
+.Footer p {
+    margin-left: 20px;
+}
+
+ nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .Navbar{
+    float: right;
+    margin-left: 50rem;
+
+  }
+  
+  nav li {
+    padding-left: 1rem;
+    text-decoration: none; 
+    align-items: center; 
+  }
+
+  nav a {
+    vertical-align:middle;
+    line-height: 2;
+    text-decoration: none;
+  }
+
+  .Footerbar{
+      margin-left: 50rem;
+      align-items: center;
+
+  }
+
+
+
+
+
+
+
+  /* RESPONSIVE */
 
 
   /* Extra small devices (phones, 600px and down) */
